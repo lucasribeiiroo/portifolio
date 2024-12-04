@@ -3,8 +3,8 @@ import { Logo, NavBar, MenuItems, MenuItem } from "./styles";
 const Header = () => {
   return (
     <NavBar>
-      <Logo />
-      <MenuItems>
+      <Logo id="nav-items" />
+      <MenuItems id="nav-items">
         <MenuItem>About</MenuItem>
         <MenuItem>Skills</MenuItem>
         <MenuItem>Projects</MenuItem>

@@ -19,7 +19,7 @@ export const MenuItem = styled.li`
   margin: 20px;
   padding: 10px 20px;
   font-size: 24px;
-  color: white;
+  color: #d1d5db;
   cursor: pointer;
   font-family: Space Grotesk;
   &:hover {
