@@ -1,5 +1,6 @@
 import styled from "styled-components";
-import LogoUrl from "../assets/logo.png";
+import LogoUrl from "../../assets/logo.png";
+import { Link } from "react-router";
 
 export const NavBar = styled.nav`
   display: flex;
@@ -9,15 +10,14 @@ export const NavBar = styled.nav`
 
 export const MenuItems = styled.ul`
   display: flex;
-
   justify-content: center !important;
   align-items: center;
 `;
 
-export const MenuItem = styled.li`
+export const MenuItem = styled(Link)`
   justify-self: auto;
   margin: 20px;
-  padding: 10px 20px;
+  padding: 10px 20px !important;
   font-size: 24px;
   color: #d1d5db;
   cursor: pointer;
