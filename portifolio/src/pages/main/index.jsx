@@ -3,6 +3,7 @@ import gsap from "gsap";
 import { motion } from "framer-motion";
 import Socials from "../../components/socials";
 import { useStore } from "../../App";
+import Imagem from './src/assets/img_lucas_ribeiro.svg"';
 
 const Main = () => {
   const comp = useRef(null);
@@ -87,7 +88,7 @@ const Main = () => {
           <img
             title="imagem_rosto_lucas"
             alt="rosto"
-            src="./src/assets/img_lucas_ribeiro.png"
+            src={Imagem}
             className="w-[550px] h-[330px] absolute fill"
           />
 
