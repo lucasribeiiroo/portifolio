@@ -21,12 +21,32 @@ export const MenuItem = styled(Link)`
   font-size: 24px;
   color: #d1d5db;
   cursor: pointer;
+  border-radius: 8px;
   font-family: Space Grotesk;
   &:hover {
     color: #32b9e7;
     transition: ease-in 0.2s;
     filter: brightness();
+    transition: ease-in-out 0.2;
   }
+
+  ${({ hire }) =>
+    hire &&
+    `
+  background-color: #32b9e7;
+  border-radius: 20px;
+  color: white;
+  font-size: 20px;
+  margin: 10px;
+
+  &:hover {
+    background: #121431;
+    color: white;
+    transition: ease-in 0.2s;
+    filter: brightness();
+    transition: ease-in-out 0.2;
+  }
+  `}
 `;
 
 export const Logo = styled.img.attrs({

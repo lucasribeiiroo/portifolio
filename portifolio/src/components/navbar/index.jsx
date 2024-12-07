@@ -11,6 +11,9 @@ const Navbar = () => {
         <MenuItem to="/about">About</MenuItem>
         <MenuItem to="/skills">Skills</MenuItem>
         <MenuItem to="/projects">Projects</MenuItem>
+        <MenuItem to="/contact" hire>
+          Hire me
+        </MenuItem>
       </MenuItems>
     </NavBar>
   );

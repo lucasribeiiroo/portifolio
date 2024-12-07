@@ -14,7 +14,7 @@ export const items = [
   {
     title: "Front-End Developer",
     description:
-      "Working and building applications with Front-end development tools.",
+      "Working // building // testing // designing applications with Front-end development tools.",
 
     icon: <MdComputer />,
   },
@@ -33,7 +33,7 @@ export const items = [
 
 const About = () => {
   return (
-    <div className="h-screen  bg-gray-950 justify-center place-items-center">
+    <div className="h-screen bg-gray-950 justify-center place-items-center">
       <div className="max-w-5xl">
         <CardContainer items={items} />
       </div>

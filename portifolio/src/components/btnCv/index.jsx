@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Container, Circle, ArrowDown, Title } from "./styles";
 import { motion } from "framer-motion";
+import CvUrl from "../../assets/CV_Lucas_Ribeiro.pdf";
 
 const BtnCv = () => {
   const [isHover, setIsHover] = useState(false);
@@ -8,6 +9,8 @@ const BtnCv = () => {
     <Container
       onMouseEnter={() => setIsHover(true)}
       onMouseLeave={() => setIsHover(false)}
+      href={CvUrl}
+      download="CV_Lucas_Ribeiro"
     >
       <motion.div
         animate={{
