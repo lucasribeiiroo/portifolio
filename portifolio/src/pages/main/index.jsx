@@ -85,7 +85,7 @@ const Main = () => {
         </div>
         <div id="image-lucas" className="place-items-center mt-20">
           <img
-            src="../src/assets/img_lucas.svg"
+            src="./src/assets/img_lucas.svg"
             className="w-[550px] h-[330px] absolute fill"
           />
 
