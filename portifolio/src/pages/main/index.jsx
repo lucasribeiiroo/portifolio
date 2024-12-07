@@ -3,7 +3,7 @@ import gsap from "gsap";
 import { motion } from "framer-motion";
 import Socials from "../../components/socials";
 import { useStore } from "../../App";
-import Imagem from "./src/assets/img_lucas_ribeiro.png";
+import Imagem from "../../assets/img_lucas.svg";
 
 const Main = () => {
   const comp = useRef(null);
