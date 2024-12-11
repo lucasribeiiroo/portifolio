@@ -53,16 +53,16 @@ const Main = () => {
       >
         {!disabledAnimation && (
           <>
-            <h1 className="text-8xl" id="title-1">
+            <h1 className="text-7xl" id="title-1">
               Software Engineer
             </h1>
-            <h1 className="text-8xl" id="title-2">
+            <h1 className="text-7xl" id="title-2">
               Front-End Developer
             </h1>
-            <h1 className="text-8xl" id="title-3">
+            <h1 className="text-7xl" id="title-3">
               React Developer
             </h1>
-            <h1 className="text-8xl" id="title-4">
+            <h1 className="text-7xl" id="title-4">
               Freelancer
             </h1>
           </>
